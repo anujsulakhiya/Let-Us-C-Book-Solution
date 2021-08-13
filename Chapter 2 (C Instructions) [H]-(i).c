@@ -17,12 +17,12 @@ int main()
           n = n % note[i];
           printf("note %d = %d\n",note[i],result[i]);
       }else{
-          
+          printf("note %d = 0\n",note[i]);
       }
   }
   
 //   for(i=0; i <= 6 ; i++){
-//       printf("note = %d\n",result[i]);
+//        printf("note = %d\n",result[i]);
 //   }
   
 
